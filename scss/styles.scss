@@ -1,2 +1,8 @@
 // Import all styles
+
+// Globals
 @import "globals/_globals.scss";
+@import "globals/_bem.scss";
+
+// Content
+@import "content/_header.scss";
