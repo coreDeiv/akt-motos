@@ -14,3 +14,21 @@
   background-attachment: fixed;
   width: 100%;
 }
+header {
+  #middle-header {
+    .row {
+      position: relative;
+      .container-logo {
+        position: absolute;
+        clip-path: polygon(0% 0%, 75% 0%, 100% 0, 88% 100%, 0% 100%);
+        z-index: 3;
+      }
+      .container-nav {
+        position: absolute;
+        right: 0;
+        width: 100%;
+        z-index: 2;
+      }
+    }
+  }
+}
